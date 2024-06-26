@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>register page</title>
+    </head>
+    <body>
+        <h1>Create Account or Sign In Page</h1>
+        <h2>{{msg}}</h2>
+        <form method="POST">
+            {%csrf_token%}
+            <input type="text" name="username" placeholder="Enter username"><br>
+            <input type="text" name="email" placeholder="Enter email"><br>
+            <input type="password" name="password" placeholder="Enter password"><br>
+
+
+            <button>create account or login</button>
+        </form>
+    </body>
+</html>
