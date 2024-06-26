@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.contrib.auth import logout
 from .models import UserModel
 
+
 # Create your views here.
 
 def indexPage(request):
